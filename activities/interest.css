@@ -1,0 +1,26 @@
+body {
+    color: #E5E7EB; 
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #0F172A;
+}
+
+.attention {
+    color: #22D3EE;
+}
+
+.deflect {
+    color: #9CA3AF;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#smaller {
+    font-size: smaller;
+}
+
+h1 {
+    color: #A855F7;
+}
