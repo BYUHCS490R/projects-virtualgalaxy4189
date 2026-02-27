@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    display: block;
+    padding: 5px;
+    background-color: aquamarine;
+    color: gray;
+    text-decoration: none;
+}
+
+#parent {
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    gap: 5px;
+}
+
+.card {
+    background-color: rgb(32, 212, 212);
+    margin: 3px;
+    border: thin solid black;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.highlight {
+    order: -1;
+}
