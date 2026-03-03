@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0 10px;
+}
+
+header {
+    background-color:rgb(17, 188, 131);
+    padding: 5px;
+    padding-left: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(219, 246, 246);
+    padding: 10px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color:rgb(4, 200, 200);  
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+aside {
+    width: 20%;
+    padding: 0 10px;
+}
+
+#parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 70%;
+}
+
+.card {
+    width: 200px;
+    background-color: white;
+    border: thin solid #E6E6E6;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(115, 114, 114, 0.7);
+}
+
+.card img {
+    width: 100%;
+}
+
+.cardpad {
+    padding: 0 20px;
+}
+
+footer {
+    background-color: rgb(219, 246, 246);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.footer-grid a {
+    display: block;
+    text-decoration: none;
+    color:rgb(4, 200, 200);  
+}
+
+.footer-grid a:hover {
+    text-decoration: underline;
+}
