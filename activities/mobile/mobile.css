@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: 80px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header h1 {
+    margin: 0;
+    background-color: rgb(180, 78, 213);
+}
+
+nav {
+    background-color: rgb(145, 151, 238);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    border: thin solid black;
+    width: 400px;
+    box-shadow: 5px 5px 3px rgb(99, 95, 95);
+    border-radius: 5px;
+}
+
+.card h2 {
+    margin: 4px 0;
+}
+
+.card a {
+    display: block;
+    width: 70%;
+    padding: 5px 8px;
+    background-color: aqua;
+    color: darkcyan;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.cardfig {
+    margin: 0;
+    font-size: 10px;
+}
+
+.cardfig img {
+    width: 100%;
+}
