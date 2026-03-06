@@ -67,32 +67,3 @@ nav a:hover {
 .cardfig img {
     width: 100%;
 }
-
-@media ONLY screen and (max-width: 600px) {
-    nav {
-        flex-direction: column;
-    }
-
-    nav a {
-        border-bottom: thin solid white;
-    }
-
-    .row {
-        flex-flow: column nowrap;
-        align-items: center;
-    }
-
-    .card {
-        width: 95%;
-    }
-
-    .main-card {
-        order: -1;
-    }
-}
-
-@media print {
-    nav {
-        display: none;
-    }
-}
