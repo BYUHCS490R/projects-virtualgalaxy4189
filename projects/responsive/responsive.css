@@ -51,6 +51,14 @@ article {
     border-radius: 5px;
 }
 
+article h2 {
+    padding: 0 20px;
+}
+
+article p {
+    padding: 0 20px;
+}
+
 article img {
     width: 100%;
 }
@@ -60,14 +68,6 @@ aside {
     padding: 20px;
     border: thin solid black;
     border-radius: 5px;
-}
-
-article h2 {
-    padding: 0 20px;
-}
-
-article p {
-    padding: 0 20px;
 }
 
 aside img {
