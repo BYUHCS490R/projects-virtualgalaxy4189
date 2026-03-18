@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <header>
+        <h1>Eric's Web Design Site</h1>
+    </header>
+
+    <main>
+        <form action="formprocs.html" method="post">
+            <div>
+                <label for="fname">Name:</label>
+                <input type="text" name="fullname" id="fname" required>
+            </div>
+            <div>
+                <label for="email">Email:</label> 
+                <input type="text" name="email" id="email" placeholder="name@gmail.com">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="pass" id="password">
+            </div>
+            <div>
+                <label for="state">State:</label>
+                <select name="state" id="state">
+                    <option value="blank"> ----- </option>
+                    <option value="CA">California</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="UT">Utah</option>
+                </select>
+            </div>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments">Pre-filled in</textarea>
+            </div>
+            <div>
+                Gender:
+                <label><input type="radio" name="gender" value="Male">Male</label>
+                <label><input type="radio" name="gender" value="Female" checked>Female</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="remember" value="male" checked>Remember me?</label>
+            </div>
+            <div>
+                <input type="submit" value="Sign up">
+            </div>
+        </form>
+
+        <h2>Engagement</h2>
+        <ol>
+            <li>Action is the link that the form is submitted to</li>
+            <li>Method is which http is used</li>
+            <li>Get retrieves data and post send data to the server</li>
+        </ol>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Eric L</p>
+    </footer>
+</body>
+</html>
