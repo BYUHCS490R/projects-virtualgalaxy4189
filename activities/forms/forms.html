@@ -13,42 +13,47 @@
 
     <main>
         <form action="formprocs.html" method="post">
-            <div>
-                <label for="fname">Name:</label>
-                <input type="text" name="fullname" id="fname" required>
-            </div>
-            <div>
-                <label for="email">Email:</label> 
-                <input type="text" name="email" id="email" placeholder="name@gmail.com">
-            </div>
-            <div>
-                <label for="password">Password:</label>
-                <input type="password" name="pass" id="password">
-            </div>
-            <div>
-                <label for="state">State:</label>
-                <select name="state" id="state">
-                    <option value="blank"> ----- </option>
-                    <option value="CA">California</option>
-                    <option value="HI">Hawaii</option>
-                    <option value="UT">Utah</option>
-                </select>
-            </div>
-            <div>
-                <label for="comments">Comments</label>
-                <textarea name="comments" id="comments">Pre-filled in</textarea>
-            </div>
-            <div>
-                Gender:
-                <label><input type="radio" name="gender" value="Male">Male</label>
-                <label><input type="radio" name="gender" value="Female" checked>Female</label>
-            </div>
-            <div>
-                <label><input type="checkbox" name="remember" value="male" checked>Remember me?</label>
-            </div>
-            <div>
-                <input type="submit" value="Sign up">
-            </div>
+            <fieldset>
+                <legend>Sign Up</legend>
+                <div class="form-row">
+                    <label for="fname">Name:</label>
+                    <input type="text" name="fullname" id="fname" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label> 
+                    <input type="text" name="email" id="email" placeholder="name@gmail.com">
+                </div>
+                <div class="form-row">
+                    <label for="password">Password:</label>
+                    <input type="password" name="pass" id="password">
+                </div>
+                <div class="form-row">
+                    <label for="state">State:</label>
+                    <select name="state" id="state">
+                        <option value="blank"> ----- </option>
+                        <option value="CA">California</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="UT">Utah</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments">Pre-filled in</textarea>
+                </div>
+                <div class="check-row">
+                    <div class="spacer">Gender:</div>
+                    <label><input type="radio" name="gender" value="Male">Male</label>
+                    <label><input type="radio" name="gender" value="Female" checked>Female</label>
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    <label><input type="checkbox" name="remember" value="male" checked>Remember me?</label>
+                </div>
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Sign up">
+                </div>
+            </fieldset>
         </form>
 
         <h2>Engagement</h2>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Project</title>
+    <link rel="stylesheet" href="formspro.css">
+</head>
+
+<body>
+    <header>
+        <h1>Forms Project</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Sign Up</legend>
+
+                <div class="form-row">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-row">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+
+                <div class="form-row">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div class="form-row">
+                    <label for="date">Birth Date:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+
+                <div class="form-row">
+                    <label>Gender:</label>
+                    <div class="options">
+                        <label><input type="radio" name="gender"> Male</label>
+                        <label><input type="radio" name="gender"> Female</label>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label>Interests:</label>
+                    <div class="options">
+                        <label><input type="checkbox"> Sports</label>
+                        <label><input type="checkbox"> Music</label>
+                        <label><input type="checkbox"> Games</label>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label for="country">Country:</label>
+                    <select id="country">
+                        <option>USA</option>
+                        <option>Canada</option>
+                        <option>Australia</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments"></textarea>
+                </div>
+
+            </fieldset>
+
+            <div class="form-row">
+                <label></label>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;2026 Eric L</p>
+    </footer>
+</body>
+</html>
