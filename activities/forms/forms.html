@@ -12,6 +12,7 @@
     </header>
 
     <main>
+        <div id="message"></div>
         <form action="formprocs.html" method="post" id="myForm">
             <fieldset>
                 <legend>Sign Up</legend>
@@ -70,33 +71,18 @@
             <li>jQuery</li>
             <li>React</li>
         </ol>
+
+        <h2>Engagement 3/27/26</h2>
+        <ol>
+            <li>Asynchornous Javascript And Xml</li>
+            <li>For code reusability, maintenance and performance</li>
+        </ol>
     </main>
 
     <footer>
         <p>&copy; 2026 Eric L</p>
     </footer>
 
-    <script>
-        document.getElementById('myForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-
-            const fullname = document.getElementById('fname').value;
-            const email = document.getElementById('email').value;
-            const password = document.getElementById('password').value;
-            
-            if (!fullname || !email) {
-                alert("You need name and email.");
-                return;
-            }
-
-            const formData = {
-                name: fullname,
-                email: email,
-                password: password
-            };
-
-            console.log(formData);
-        });
-    </script>
+    <script src="form.js"></script>
 </body>
 </html>
