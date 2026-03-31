@@ -55,6 +55,12 @@ legend {
     font-weight: bold;
 }
 
+#resultMessage {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+}
+
 @media (max-width: 600px) {
     .form-row {
         flex-direction: column;
