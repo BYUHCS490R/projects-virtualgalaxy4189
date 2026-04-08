@@ -1,0 +1,132 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #F5F5DC;
+    color: #3E2723;
+    padding-bottom: 50px;
+    margin-left: 0;
+}
+
+header {
+    margin-left: 20px;
+}
+
+main {
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3E2723;
+    padding: 20px;
+}
+
+nav a {
+    color:white;
+}
+
+#homeimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 15px;
+    background-color: #aeae9a;
+    border-top: thin solid black;
+}
+
+footer p {
+    margin: 8px;
+}
+
+.current {
+    color: #D9A441;
+}
+
+.musictable {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+table th {
+    border: 1px solid black;
+    background-color: #aeae9a;
+    padding: 10px 8px;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 10px 8px;
+}
+
+#title {
+    font-weight: bold;
+    font-size: larger;
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: 200px;
+}
+
+fieldset {
+    background-color: #573d39;
+    color: rgb(243, 237, 237);
+}
+
+legend {
+    padding: 10px;
+    background-color: #3f2b28;
+    color: white;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    
+}
+
+.form-row label{
+    width: 150px;
+    text-align: right;
+}
+
+.spacer {
+    width: 150px;
+}
+
+@media ONLY screen AND (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 15px 25px;
+        font-size: 1.2rem;
+        width: 80%;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <header>
+        <h1>Music Around the World</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="trinidad.html">Trinidad</a>
+        <a href="china.html">China</a>
+        <a href="ghana.html">Ghana</a>
+        <a href="norway.html">Norway</a>
+        <a href="other.html" class="current">Other</a>
+    </nav>
+
+    <main>
+        <h2>Other</h2>
+        <p>A table with examples of some songs from the countries mentioned on this website</p>
+        <table class="musictable">
+            <caption id="title">World Music</caption>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Genre</th>
+                    <th>Origin</th>
+                    <th>Artist</th>
+                    <th>Release Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Differentology</td>
+                    <td>Soca/World</td>
+                    <td>Trinidad and Tobago</td>
+                    <td>Bunji Garlin</td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td>Savannah Grass</td>
+                    <td>Soca</td>
+                    <td>Trinidad and Tobago</td>
+                    <td>Kes the Band</td>
+                    <td>2025?</td>
+                </tr>
+                <tr>
+                    <td>My People, My Country</td>
+                    <td>Patriotic/Popular</td>
+                    <td>China</td>
+                    <td>Li Guyi</td>
+                    <td>1984</td>
+                </tr>
+                <tr>
+                    <td>The Moon Represents My Heart</td>
+                    <td>Mandarin Pop/Ballad</td>
+                    <td>China</td>
+                    <td>Teresa Teng</td>
+                    <td>1973</td>
+                </tr>
+                <tr>
+                    <td>Sugarcane</td>
+                    <td>Afropop</td>
+                    <td>Ghana</td>
+                    <td>Camidoh (feat. Phantom)</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>Makra Mo</td>
+                    <td>Highlife</td>
+                    <td>Ghana</td>
+                    <td>Daddy Lumba</td>
+                    <td>1993</td>
+                </tr>
+                <tr>
+                    <td>Oleanna</td>
+                    <td>Folk/Folk Ballad</td>
+                    <td>Norway</td>
+                    <td>Unknown</td>
+                    <td>1853</td>
+                </tr>
+                <tr>
+                    <td>Faded</td>
+                    <td>Electronic/Pop</td>
+                    <td>Norway</td>
+                    <td>Alan Walker</td>
+                    <td>2015</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br><br>
+
+<!-- ----------------------------------------------------------------------------------------------------------------------- -->
+
+
+        <div id="message"></div>
+        <form action="musicform.html" method="post" id="myForm">
+            <fieldset>
+                <legend>Music Preference</legend>
+                <div class="form-row">
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age" min="0" required>
+                </div>
+                <div class="form-row">
+                    <label for="country">Home country:</label> 
+                    <input type="text" name="country" id="country" placeholder="-Ireland-" required>
+                </div>
+                <div class="form-row">
+                    <label for="genre">Favourite music genre:</label>
+                    <input type="text" name="genre" id="genre" placeholder="-Pop-" required>
+                </div>
+                <div class="form-row">
+                    <label for="artist">Favourite music artist:</label>
+                    <input type="text" name="artist" id="artist" placeholder="-Bruno Mars-" required>
+                </div>
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Eric L</p>
+    </footer>
+
+    <script src="finalform.js"></script>
+</body>
+</html>
