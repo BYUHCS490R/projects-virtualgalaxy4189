@@ -32,6 +32,10 @@ nav a {
     width: 75%;
 }
 
+iframe {
+    width: 30%;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -128,5 +132,29 @@ legend {
         margin-right: auto;
         margin-bottom: 10px;
         width: 90%;
+    }
+
+    form {
+        /* flex-direction: column;
+        align-items: center; */
+        width: 100%;
+    }
+
+    form input {
+        width: 100%;
+        height: 50px;
+        font-size: large;
+    }
+
+    .form-row label {
+        text-align: left;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 100%;
     }
 }
